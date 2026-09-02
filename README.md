@@ -62,9 +62,16 @@ Business Insights & Recommendations
 - Loans: (300 rows). A loan ID is allocated to each customer who took out a loan, alongside which branch it was taken from, how much they took, and the interest rate for each of them, the status of the loan, and whether it has been approved, pending, or defaulted.
 - Branches: (15 rows). 15 branches located at Lagos, Calabar, Port-Harcourt, Abuja, Kaduna, Enugu, Kano, Ibadan, Benin, Jos, Maiduguri, Owerri, Abeokuta, Asaba, and Ilorin.
 
-  ![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20150751.png)
-   
+### Data Preperation & Transformation
 
+
+![datetable](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165445.png)
+![age distributio](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20065924.png)
+![transaction category](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165122.png)
+
+### Relationship between the tables
+![modelling](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20133941.png)
+   
 ## ANALYSIS
 1. Customer Analysis
    - Customer Base: The bank has 500 customers across the available dataset.
