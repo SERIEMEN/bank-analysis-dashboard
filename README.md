@@ -27,7 +27,9 @@ We used data analytics and visualization to answer key business questions and pr
 - Insight generation
 - Data storytelling
 
-## Data Pipeline
+## Methodology 
+
+### Data Pipeline Overview
 
 Raw Banking Data
 ↓
@@ -45,32 +47,45 @@ Power BI Dashboard
 ↓
 Business Insights & Recommendations
 
-## Methodology 
-+ **Data Collection:** Five datasets were provided covering customers, accounts, branches, transactions, and loans.
-- **Data Cleaning & Preparation:** The datasets were reviewed for data types, missing values, duplicates, inconsistent fields, and formatting issues, and were corrected accordingly.
-- **Data Transformation:** The relevant fields were transformed and prepared for analysis, including transaction categories, account information, and loan status.
-- **Data Modelling:** Relationships were established between customers, accounts, branches, transactions, and loans to create an integrated analytical model.
-* **Measure & KPI Development:** Key metrics were created to evaluate customer volume, account balances, transaction activity, loan exposure, defaults, and branch performance.
++ ### Data Collection:
+   Five datasets were provided covering accounts, customers, transactions, loans, and branches.
+   #### About Dataset
+    - Accounts: (700 rows). Each account belongs to a customer with an ID, at a specific branch, an account type(loans, savings, current), and a balance.
+    - Customers: (500 rows). It contains necessary information of the customers (name, age, gender, address, phone number, email, and their identification number).
+    - Transactions: (10000 rows). A transaction identification number for each transaction for effective tracking of customer IDs and account IDs, respectively, for accuracy, which transaction type was made (deposit, withdrawal, and bill payment), and the amount.
+    - Loans: (300 rows). A loan ID is allocated to each customer who took out a loan, along with the branch it was taken from, how much they took, and the interest rate for each of them, the status of the loan, and whether it has been approved, pending, or defaulted.
+    - Branches: (15 rows). 15 branches located at Lagos, Calabar, Port-Harcourt, Abuja, Kaduna, Enugu, Kano, Ibadan, Benin, Jos, Maiduguri, Owerri, Abeokuta, Asaba, and Ilorin.
+
+- ### Data Cleaning & Preparation
+   The datasets were reviewed for data types, missing values, duplicates, inconsistent fields, and formatting issues, and were corrected accordingly.
+- ### Data Transformation
+   The relevant fields were transformed and prepared for analysis, including transaction categories, account information, and loan status.
+  
+  #### Date table created\
+  ![datetable](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20073802.png)
+
+  Age distribution column created to understand which age grade perform more transactions at the bank
+
+  ![age distribution](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20065924.png)
+  
+- ### Data Modelling
+    Relationships were established between customers, accounts, branches, transactions, and loans to create an integrated analytical model.
+
+  #### Relationship between the tables
+
+  ![modelling](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20133941.png)
+
+* ### Measure & KPI Development
+   Key metrics were created to evaluate customer volume, account balances, transaction activity, loan exposure, defaults, and branch performance.
+
+  #### Dax creation | KPIs used
+
+  ![dax creation](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20074525.png)
+
 * **Exploratory Analysis:** Customer, account, transaction, loan, and branch-level patterns were examined.
 * **Dashboard Development:** The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
 + **Business Insight Generation:** The final stage involved interpreting the results and identifying areas requiring management attention.
 
-### About Dataset
-- Accounts: (700 rows). Each account belongs to a customer with an ID, at a specific branch, an account type(loans, savings, current), and a balance.
-- Customers: (500 rows). It contains necessary information of the customers (name, age, gender, address, phone number, email, and their identification number).
-- Transactions: (10000 rows). A transaction identification number for each transaction for effective tracking of customer IDs and account IDs, respectively, for accuracy, which transaction type was made (deposit, withdrawal, and bill payment), and the amount.
-- Loans: (300 rows). A loan ID is allocated to each customer who took out a loan, alongside which branch it was taken from, how much they took, and the interest rate for each of them, the status of the loan, and whether it has been approved, pending, or defaulted.
-- Branches: (15 rows). 15 branches located at Lagos, Calabar, Port-Harcourt, Abuja, Kaduna, Enugu, Kano, Ibadan, Benin, Jos, Maiduguri, Owerri, Abeokuta, Asaba, and Ilorin.
-
-### Data Preperation & Transformation
-
-
-![datetable](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165445.png)
-![age distributio](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20065924.png)
-![transaction category](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165122.png)
-
-### Relationship between the tables
-![modelling](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20133941.png)
    
 ## ANALYSIS
 1. Customer Analysis
