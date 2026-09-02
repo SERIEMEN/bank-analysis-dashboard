@@ -55,6 +55,16 @@ Business Insights & Recommendations
 * **Dashboard Development:** The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
 + **Business Insight Generation:** The final stage involved interpreting the results and identifying areas requiring management attention.
 
+### About Dataset
+- Accounts: (700 rows). Each account belongs to a customer with an ID, at a specific branch, an account type(loans, savings, current), and a balance.
+- Customers: (500 rows). It contains necessary information of the customers (name, age, gender, address, phone number, email, and their identification number).
+- Transactions: (10000 rows). A transaction identification number for each transaction for effective tracking of customer IDs and account IDs, respectively, for accuracy, which transaction type was made (deposit, withdrawal, and bill payment), and the amount.
+- Loans: (300 rows). A loan ID is allocated to each customer who took out a loan, alongside which branch it was taken from, how much they took, and the interest rate for each of them, the status of the loan, and whether it has been approved, pending, or defaulted.
+- Branches: (15 rows). 15 branches located at Lagos, Calabar, Port-Harcourt, Abuja, Kaduna, Enugu, Kano, Ibadan, Benin, Jos, Maiduguri, Owerri, Abeokuta, Asaba, and Ilorin.
+
+  ![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20150751.png)
+   
+
 ## ANALYSIS
 1. Customer Analysis
    - Customer Base: The bank has 500 customers across the available dataset.
