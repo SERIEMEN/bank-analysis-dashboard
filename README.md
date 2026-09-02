@@ -1,6 +1,6 @@
 # BANK ANALYSIS DASHBOARD PROJECT
 This repo contains a bank analysis project done with Power BI and Excel
-[https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20153606.png]
+
 ![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20150751.png)
 # Problem Statement: Bank Performance Analysis
 Banks generate large volumes of customers, accounts, transactions, and loan data. Without effective analysis, management may struggle to understand customer behaviour, monitor transaction performance, identify loan risk, and compare branch performance.
@@ -52,7 +52,7 @@ Business Insights & Recommendations
 - **Data Modelling:** Relationships were established between customers, accounts, branches, transactions, and loans to create an integrated analytical model.
 * **Measure & KPI Development:** Key metrics were created to evaluate customer volume, account balances, transaction activity, loan exposure, defaults, and branch performance.
 * **Exploratory Analysis:** Customer, account, transaction, loan, and branch-level patterns were examined.
-* Dashboard Development: The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
+* **Dashboard Development:** The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
 + **Business Insight Generation:** The final stage involved interpreting the results and identifying areas requiring management attention.
 
 ## ANALYSIS
@@ -210,78 +210,58 @@ Owerri leads in loan count, while Enugu Central leads in total loan value.
 
 1. Investigate Failed and Pending Transactions
 
-The high proportion of failed and pending transactions should be investigated to identify whether the issue is caused by system failures, processing delays, payment-channel problems, or data-recording issues.
-
-Management should monitor transaction success rates regularly and establish service-level targets for resolving pending transactions.
+    The high proportion of failed and pending transactions should be investigated to identify whether the issue is caused by system           failures, processing delays, payment-channel problems, or data-recording issues.\
+    Management should monitor transaction success rates regularly and establish service-level targets for resolving pending transactions.
 
 2. Strengthen Credit Risk Management
+    With approximately ₦218 million associated with defaulted loans, the bank should strengthen its credit-risk monitoring process.\
 
-With approximately ₦218 million associated with defaulted loans, the bank should strengthen its credit-risk monitoring process.
+   Potential actions include:
+   + Reviewing borrower risk profiles
+   + Monitoring repayment behaviour
+   + Strengthening credit assessment
+   + Introducing early-warning indicators
+   + Prioritizing high-value default exposures
 
-Potential actions include:
-
-+ Reviewing borrower risk profiles
-+ Monitoring repayment behaviour
-+ Strengthening credit assessment
-+ Introducing early-warning indicators
-+ Prioritizing high-value default exposures
-
-3. Leverage Multi-Account Customers
-
-More than 40% of customers hold multiple accounts.
-
-The bank could use customer behaviour and account information to identify opportunities for:
-
-+ Cross-selling
-+ Personalized product recommendations
-+ Customer retention
-+ Relationship management
+3. Leverage Multi-Account Customer:\
+    More than 40% of customers hold multiple accounts.\
+    The bank could use customer behaviour and account information to identify opportunities for:
+     + Cross-selling
+     + Personalized product recommendations
+     + Customer retention
+     + Relationship management
   
-4. Investigate High Withdrawal Values
+4. Investigate High Withdrawal Values\
+   Withdrawals are substantially higher in value than deposits.\
+   The bank should monitor the underlying reasons for this pattern and evaluate whether it reflects normal customer behaviour, specific      customer segments, particular branches, or periods of unusually high withdrawals.
 
-Withdrawals are substantially higher in value than deposits.
+5. Benchmark Branches Using Multiple KPIs\
+   Branch performance should not be evaluated using account count alone.\
+   A more comprehensive branch scorecard could include:
+     * Number of customers
+     * Number of accounts
+     * Total account balance
+     * Transaction value
+     * Transaction success rate
+     * Loan volume
+     * Loan exposure
+     * Default rate 
+   This would provide management with a more balanced view of branch performance.
 
-The bank should monitor the underlying reasons for this pattern and evaluate whether it reflects normal customer behaviour, specific customer segments, particular branches, or periods of unusually high withdrawals.
+6. Improve Revenue Data Collection\
+   Because the current dataset does not contain a revenue field, future analysis should incorporate revenue-related data such as:
+   - Account fees
+   - Transaction fees
+   - Loan interest income
+   - Service charges
+   - Other banking income
 
-5. Benchmark Branches Using Multiple KPIs
+   This would allow actual branch profitability and revenue contribution to be measured.
 
-Branch performance should not be evaluated using account count alone.
-
-A more comprehensive branch scorecard could include:
-
-* Number of customers
-* Number of accounts
-* Total account balance
-* Transaction value
-* Transaction success rate
-* Loan volume
-* Loan exposure
-* Default rate
-
-This would provide management with a more balanced view of branch performance.
-
-6. Improve Revenue Data Collection
-
-Because the current dataset does not contain a revenue field, future analysis should incorporate revenue-related data such as:
-
-- Account fees
-- Transaction fees
-- Loan interest income
-- Service charges
-- Other banking income
-
-This would allow actual branch profitability and revenue contribution to be measured.
-
-Overall Business Conclusion
-
-The analysis provides a consolidated view of the bank's customer base, account balances, transaction activity, loan exposure, and branch performance.
-
-The strongest opportunities identified are improving transaction reliability, strengthening credit-risk management, leveraging multi-account customers, and developing more comprehensive branch-performance metrics.
-
-Calabar stands out for customer and account activity, while the loan analysis highlights a significant level of default exposure that requires attention.
-
-Overall, the project demonstrates how Power BI can transform raw banking data into an interactive decision-support tool that enables management to move from simply viewing data to identifying patterns, risks, opportunities, and areas requiring action.
+# OVERALL BUSINESS CONCLUSION
+1. The analysis provides a consolidated view of the bank's customer base, account balances, transaction activity, loan exposure, and         branch performance.
+2. The strongest opportunities identified are improving transaction reliability, strengthening credit-risk management, leveraging multi-     account customers, and developing more comprehensive branch-performance metrics.
+3. Calabar stands out for customer and account activity, while the loan analysis highlights a significant level of default exposure that     requires attention.
+4. Overall, the project demonstrates how Power BI can transform raw banking data into an interactive decision-support tool that enables      management to move from simply viewing data to identifying patterns, risks, opportunities, and areas requiring action.
 
 ## What I learned
-
-## Preview
