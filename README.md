@@ -89,6 +89,9 @@ Business Insights & Recommendations
    
 ## ANALYSIS
 ### 1. Customer Analysis
+
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165536.png)
+
    #### a.	How many customers does the bank have?
       - Customer Base: The bank has 500 customers across the available dataset.
    #### b.	What is the customer demographic distribution (age, gender)?
@@ -126,6 +129,8 @@ Business Insights & Recommendations
     
 ### 3. Transaction Monitoring
 
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20150751.png)
+
  #### a. What is the total transaction volume?
     - The dataset contains 10,000 transactions with a combined transaction value of approximately ₦12.52 billion
     - Withdrawals represent the largest monetary transaction category, with approximately ₦6.29 billion in transaction value.
@@ -152,6 +157,8 @@ Business Insights & Recommendations
      Therefore, approximately 66.94% of transactions are either failed or pending in the supplied dataset. This is a major operational finding that warrants investigation. Because the dataset is a practice dataset, this result should be treated as an analytical observation rather than assumed to represent actual banking-system performance.
 
 ### 4. Loan Risk & Exposure
+
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165557.png)
 
    #### a.	What is the total loan exposure of the bank?
              The bank's total loan exposure is approximately ₦726.48 million
