@@ -286,3 +286,5 @@ The analysis produced several key findings:
 2. The strongest opportunities identified are improving transaction reliability, strengthening credit-risk management, leveraging multi-     account customers, and developing more comprehensive branch-performance metrics.
 3. Calabar stands out for customer and account activity, while the loan analysis highlights a significant level of default exposure that     requires attention.
 4. Overall, the project demonstrates how Power BI can transform raw banking data into an interactive decision-support tool that enables      management to move from simply viewing data to identifying patterns, risks, opportunities, and areas requiring action.
+
+## [Dashboard link](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/power%20BI%20practice1.pbix)
