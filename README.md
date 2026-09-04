@@ -93,13 +93,13 @@ Business Insights & Recommendations
 ![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165536.png)
 
    #### a.	How many customers does the bank have?
-      - Customer Base: The bank has 500 customers across the available dataset.
+         - Customer Base: The bank has 500 customers across the available dataset.
    #### b.	What is the customer demographic distribution (age, gender)?
        Customer Demographics: The customer base is almost evenly distributed by gender:
         - Female: 254 customers (50.8%)
         - Male: 246 customers (49.2%)
         - The largest age group is customers aged 55 and above, with 145 customers.
-     > This indicates that the bank has a relatively mature customer base, which may have implications for product development, customer engagement, and financial-service offerings.
+       > This indicates that the bank has a relatively mature customer base, which may have implications for product development, customer engagement, and financial-service offerings.
 
    #### c.	Which branches have the most accounts
         - Calabar Branch has the highest number of accounts, with 70 accounts.
@@ -143,7 +143,7 @@ Business Insights & Recommendations
          - Deposits: approximately ₦2.46 billion
          - Withdrawals: approximately ₦6.29 billion
      - This gives a deposit-to-withdrawal value ratio of approximately 1:2.56.
-    > Therefore, although deposit and withdrawal transactions occur at similar frequencies, withdrawal values are substantially higher.
+       > Therefore, although deposit and withdrawal transactions occur at similar frequencies, withdrawal values are substantially higher.
 
   #### c.	How do transactions change over time?
     - Transaction activity increased significantly from 2022 to 2024. 2024 recorded the highest activity among the complete years in the dataset, with approximately 3,346 transactions worth ₦4.24 billion.
@@ -161,14 +161,14 @@ Business Insights & Recommendations
 ![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165557.png)
 
    #### a.	What is the total loan exposure of the bank?
-             The bank's total loan exposure is approximately ₦726.48 million
+       The bank's total loan exposure is approximately ₦726.48 million
 
    #### b.	Which branches issue the most loans?
-            Owerri Branch issues the highest number of loans, with 27 loans.
+       Owerri Branch issues the highest number of loans, with 27 loans.
 
-            However, loan volume and loan value produce different results.
-               - Highest Loan Exposure by Branch
-               - Enugu Central has the highest aggregate loan value at approximately ₦58.63 million
+      However, loan volume and loan value produce different results.
+            - Highest Loan Exposure by Branch
+            - Enugu Central has the highest aggregate loan value at approximately ₦58.63 million
     > This demonstrates why branch performance should be evaluated using multiple KPIs rather than loan count alone.
 
    #### c.	What is the loan status distribution (active, defaulted)?
