@@ -1,7 +1,7 @@
 # BANK ANALYSIS DASHBOARD PROJECT
 This repo contains a bank analysis project done with Power BI and Excel
 
-![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20153606.png)
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-24%20153606.png)
 # Problem Statement: Bank Performance Analysis
 Banks generate large volumes of customers, accounts, transactions, and loan data. Without effective analysis, management may struggle to understand customer behaviour, monitor transaction performance, identify loan risk, and compare branch performance.
 
@@ -62,25 +62,25 @@ Business Insights & Recommendations
    The relevant fields were transformed and prepared for analysis, including transaction categories, account information, and loan status.
   
   #### Date table created
-  ![datetable](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20073802.png)
+  ![datetable](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-09-02%20073802.png)
 
   Age distribution column created to understand which age grade performs more transactions at the bank
 
-  ![age distribution](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20065924.png)
+  ![age distribution](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-09-02%20065924.png)
   
 - ### Data Modelling
     Relationships were established between customers, accounts, branches, transactions, and loans to create an integrated analytical model.
 
   #### Relationship between the tables
 
-  ![modelling](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20133941.png)
+  ![modelling](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-28%20133941.png)
 
 * ### Measure & KPI Development
    Key metrics were created to evaluate customer volume, account balances, transaction activity, loan exposure, defaults, and branch performance.
 
   #### Dax creation | KPIs used
 
-  ![dax creation](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-09-02%20074525.png)
+  ![dax creation](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-09-02%20074525.png)
 
 * **Exploratory Analysis:** Customer, account, transaction, loan, and branch-level patterns were examined.
 * **Dashboard Development:** The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
@@ -90,7 +90,7 @@ Business Insights & Recommendations
 ## ANALYSIS
 ### 1. Customer Analysis
 
-![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165536.png)
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-28%20165536.png)
 
    #### a.	How many customers does the bank have?
          - Customer Base: The bank has 500 customers across the available dataset.
@@ -129,7 +129,7 @@ Business Insights & Recommendations
     
 ### 3. Transaction Monitoring
 
-![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-24%20150751.png)
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-24%20150751.png)
 
  #### a. What is the total transaction volume?
     - The dataset contains 10,000 transactions with a combined transaction value of approximately ₦12.52 billion
@@ -158,7 +158,7 @@ Business Insights & Recommendations
 
 ### 4. Loan Risk & Exposure
 
-![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/Screenshot%202026-08-28%20165557.png)
+![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-28%20165557.png)
 
    #### a.	What is the total loan exposure of the bank?
        The bank's total loan exposure is approximately ₦726.48 million
