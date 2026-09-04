@@ -2,7 +2,30 @@
 This repo contains a bank analysis project done with Power BI and Excel
 
 ![dashboard](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-24%20153606.png)
-# Problem Statement: Bank Performance Analysis
+
+## Table of Contents
+
+- [Problem Statement](#problem-statement)
+- [Technologies](#technologies)
+- [Skills demonstrated](#skills-demonstrated)
+- [Methodology](#methodology)
+  - [Data Pipeline Overview](#data-pipeline-overview)
+  - [Data Collection](#data-collection)
+    - [About the Dataset](#about-the-dataset)
+  - [Data Cleaning & Preparation](#data-cleaning--preparation)
+  - [Data Transformation](#data-transformation)
+  - [Data Modelling](#data-modelling)
+  - [Measure & KPIs used](#measure--kpis-used)
+  - [Exploratory Analysis](exploratory-analysis)
+  - [Dashboard Development](#dashboard-development)
+  - [Insight Generation](#insight-generation)
+- [Analysis](#analysis)
+- [Key Findings](#key-findings)
+- [Recommendations](#recommendations)
+- [Dashboard](#dashboard)
+- [Conclusion](#conclusion)
+
+# Problem Statement
 Banks generate large volumes of customers, accounts, transactions, and loan data. Without effective analysis, management may struggle to understand customer behaviour, monitor transaction performance, identify loan risk, and compare branch performance.
 
 This project focused on analyzing banking data to provide a consolidated view of customer demographics, account balances, transaction activity, loan exposure, default risk, and branch performance.
@@ -15,7 +38,7 @@ We used data analytics and visualization to answer key business questions and pr
 + DAX — KPI and analytical measure creation
 + CSV — Source data format
 
-**Skills Demonstrated**
+## Skills Demonstrated
 - Data cleaning and preparation
 - Data transformation
 - Data modelling
@@ -47,7 +70,7 @@ Power BI Dashboard
 ↓
 Business Insights & Recommendations
 
-+ ### Data Collection:
++ ### Data Collection
    Five datasets were provided covering accounts, customers, transactions, loans, and branches.
    #### About the Dataset
     - Accounts: (700 rows). Each account belongs to a customer with an ID, at a specific branch, an account type(loans, savings, current), and a balance.
@@ -75,16 +98,16 @@ Business Insights & Recommendations
 
   ![modelling](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-08-28%20133941.png)
 
-* ### Measure & KPI Development
-   Key metrics were created to evaluate customer volume, account balances, transaction activity, loan exposure, defaults, and branch performance.
-
-  #### Dax creation | KPIs used
+- ### Measure & KPIs used
 
   ![dax creation](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/images/Screenshot%202026-09-02%20074525.png)
 
-* **Exploratory Analysis:** Customer, account, transaction, loan, and branch-level patterns were examined.
-* **Dashboard Development:** The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
-+ **Business Insight Generation:** The final stage involved interpreting the results and identifying areas requiring management attention.
+- ### Exploratory Analysis
+  Customer, account, transaction, loan, and branch-level patterns were examined.
+- ### Dashboard Development
+  The findings were presented through an interactive Power BI dashboard to allow users to explore the data across different business areas.
+- ### Insight Generation
+  The final stage involved interpreting the results and identifying areas requiring management attention.
 
    
 ## ANALYSIS
@@ -195,7 +218,7 @@ Business Insights & Recommendations
       - Highest number of loans: Owerri Branch — 27
       - Highest loan value: Enugu Central — ₦58.63M
 
-## Results
+## Key Findings
 
 The analysis produced several key findings:
 
@@ -245,7 +268,7 @@ The analysis produced several key findings:
    + Introducing early-warning indicators
    + Prioritizing high-value default exposures
 
-4. Leverage Multi-Account Customers
+3. Leverage Multi-Account Customers
    
     More than 40% of customers hold multiple accounts. The bank could use customer behaviour and account information to identify opportunities for:
      + Cross-selling
@@ -253,10 +276,10 @@ The analysis produced several key findings:
      + Customer retention
      + Relationship management
   
-6. Investigate High Withdrawal Values
+4. Investigate High Withdrawal Values
       Withdrawals are substantially higher in value than deposits. The bank should monitor the underlying reasons for this pattern and evaluate whether it reflects normal customer behaviour, specific customer segments, particular branches, or periods of unusually high withdrawals.
 
-8. Benchmark Branches Using Multiple KPIs
+5. Benchmark Branches Using Multiple KPIs
    
    Branch performance should not be evaluated using account count alone. A more comprehensive branch scorecard could include:
      * Number of customers
@@ -270,7 +293,7 @@ The analysis produced several key findings:
    
    This would provide management with a more balanced view of branch performance.
 
-10. Improve Revenue Data Collection
+6. Improve Revenue Data Collection
     
    Because the current dataset does not contain a revenue field, future analysis should incorporate revenue-related data such as:
    - Account fees
@@ -281,10 +304,11 @@ The analysis produced several key findings:
 
    This would allow actual branch profitability and revenue contribution to be measured.
 
-## OVERALL BUSINESS CONCLUSION 
+## Dashboard
+ [Dashboard link](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/power%20BI%20practice1.pbix)
+
+## CONCLUSION 
 1. The analysis provides a consolidated view of the bank's customer base, account balances, transaction activity, loan exposure, and         branch performance.
 2. The strongest opportunities identified are improving transaction reliability, strengthening credit-risk management, leveraging multi-     account customers, and developing more comprehensive branch-performance metrics.
 3. Calabar stands out for customer and account activity, while the loan analysis highlights a significant level of default exposure that     requires attention.
 4. Overall, the project demonstrates how Power BI can transform raw banking data into an interactive decision-support tool that enables      management to move from simply viewing data to identifying patterns, risks, opportunities, and areas requiring action.
-
-## [Dashboard link](https://github.com/SERIEMEN/bank-analysis-dashboard/blob/main/power%20BI%20practice1.pbix)
